@@ -3,7 +3,9 @@ package com.flatironschool.javacs;
 public class HelloWorld {
     public static Double getVersion() {
 	String myProperty = "java.specification.version";
-	return System.getProperty(myProperty);
+	System.out.println(System.getProperty(myProperty));
+	System.out.println("Test");
+	return 2.0;
     }
 
     public static void main(String[] args) {
